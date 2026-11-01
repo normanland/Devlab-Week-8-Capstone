@@ -243,3 +243,16 @@ Store 42 is the most consistent negative unemployment signal across the two mode
 - Unemployment sensitivity: store-level first-difference OLS with month controls and four-lag HAC standard errors; Benjamini–Hochberg adjustment across 45 tests; second level model as a robustness check.
 
 The dataset does not contain units sold, gross margin, inventory, promotion details, store size, local competition or customer demographics. It cannot identify causal drivers of sales or measure profit. The macro sensitivity estimates should be treated as descriptive risk signals for further investigation.
+
+## Project files and working layout
+
+The project folder follows the same layout as the local working directory:
+
+- `walmart retail analytics.ipynb` — executed analysis notebook with the full workflow, displayed tables and embedded charts.
+- `visuals/` — seven standalone PNG exports for presentation and review.
+- `output csv/` — thirteen analytical tables exported from the notebook.
+- `README.md` — dataset location, setup instructions, project map and execution guide.
+
+The source dataset remains at `C:\Users\anarrasulzada\Desktop\Walmart.csv`, outside the project folder. The notebook writes the exported tables to `output csv/` and the chart files to `visuals/`, relative to the notebook working directory.
+
+All descriptive PNG and CSV filenames use ordinary spaces between words. The notebook filename follows the same naming convention.
